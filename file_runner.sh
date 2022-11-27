@@ -1,1 +1,1 @@
-printf 'sss\nsdsdsd\nsdsdssd\n' | bash testzero.sh
+printf 'sss\nsdsdsd\nsdsdssd\n' | ./testzero.sh
