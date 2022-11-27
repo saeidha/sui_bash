@@ -14,4 +14,6 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 source $HOME/.cargo/env
 rustup update
 apt-get install screen
-echo -ne 'Y\n'
+echo -ne 'Y'
+echo -ne '\n'
+cd $home
