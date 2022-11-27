@@ -1,1 +1,1 @@
-sui client active-address > SomeFile.txt
+sui client active-address | tee SomeFile.txt
