@@ -1,6 +1,6 @@
 source $HOME/.cargo/env
 rustup update
 apt-get install screen
-echo -ne 'Y'
+yes Y
 echo -ne '\n'
 cd $home
