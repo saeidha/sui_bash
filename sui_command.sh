@@ -23,6 +23,7 @@ ufw allow http
 ufw allow 9000
 ufw allow 9184
 ufw enable
+cd /root/
 cargo install --locked --git https://github.com/MystenLabs/sui.git --branch devnet sui sui-node
 cargo install --git https://github.com/move-language/move move-analyzer --features "address20"
 # sui client active-address | tee faucet.txt
