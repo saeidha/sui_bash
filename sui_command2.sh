@@ -1,5 +1,4 @@
 sleep 5s
-cd /root/
 sui client active-address | tee faucet.txt
 sleep 5s
 git clone https://github.com/MystenLabs/sui.git --branch devnet
