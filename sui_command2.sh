@@ -1,3 +1,4 @@
+cd $home
 sleep 5s
 sui client active-address | tee faucet.txt
 sleep 5s
