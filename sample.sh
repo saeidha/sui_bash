@@ -1,3 +1,4 @@
+cd /
 sudo apt update && sudo apt upgrade -y
 apt-get update \
     && DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC apt-get install -y --no-install-recommends \
