@@ -23,9 +23,16 @@
 #   branch it should be: `https://raw.githubusercontent.com/USER/REPO/master/run`
 
 # Setup `git.io` shorten URL by specifying your own code
-curl -i https://git.io \
-  -F "url=https://raw.githubusercontent.com/saeidha/sui_bash/master/runner_sui.sh" \
-  -F "code=sui"
+# curl -i https://git.io \
+#   -F "url=https://raw.githubusercontent.com/saeidha/sui_bash/master/runner_sui.sh" \
+#   -F "code=sui"
+
 
 # Now you can run the commands with 
 # curl -sL https://git.io/sui| bash
+
+
+apt git install -y
+git clone https://github.com/saeidha/sui_bash.git
+cd sui_bash/
+bash runner_sui.sh
