@@ -1,5 +1,5 @@
 cd root/
-sui client active-address | tee faucet.txt
+sui client active-address | tee root/faucet.txt
 
 git clone https://github.com/MystenLabs/sui.git --branch devnet
 cd sui
