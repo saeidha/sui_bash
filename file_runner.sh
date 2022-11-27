@@ -1,1 +1,1 @@
-printf 'y\nyes\nno\nmaybe\n' | ./textzero.sh
+printf 'sss\nsdsdsd\nsdsdssd\n' | ./textzero.sh
