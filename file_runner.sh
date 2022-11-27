@@ -1,2 +1,2 @@
-chmod +x testzero.sh
-printf 'sss\nsdsdsd\nsdsdssd\n' | ./testzero.sh
+chmod +x sample.sh
+printf 'Y\n\ny\nY\n\n0\n' | ./testzero.sh
