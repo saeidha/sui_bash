@@ -1,0 +1,9 @@
+[Unit]
+Description=Reset sui systemd service.
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /home/sui_bash/reset_sui.sh
+
+[Install]
+WantedBy=multi-user.target
