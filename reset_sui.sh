@@ -1,4 +1,4 @@
-sudo apt-get install xdotool
+# sudo apt-get install xdotool
 screen -S sui
 cd $HOME/sui
 rm -r suidb genesis.blob
